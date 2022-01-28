@@ -2,42 +2,87 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet">
+        <link rel="stylesheet" href="Calculator-style.css">
         <title>Document</title>
+
     </head>
-    <body>
+    <body class="cr"> 
+        
         <script>
-            "use strict"
+            "use strict";
 
 const a=+prompt("Введите первое число!","");
+const s=prompt("Какое действие желаете выполнить?","");
 const b=+prompt("Введите второе число!","");
-function calc(a,b){
-return (a+b);
-}
-function calc(a,b){
-    return (a*b);
-    }
-    function calc(a,b){
-        return (a-b);
-        }
-        function calc(a,b){
-            return (a/b);
-            }
-            function calc(a,b){
-                return (a%b);
-                }
-                document.writeln("Сумма(ответ)=",a+b);
-                document.writeln(",");
-                document.writeln("Произведение(ответ)=",a*b);
-                document.writeln(",");
-                document.writeln("Разница(ответ)=",a-b);
-                document.writeln(",");
-                document.writeln("Деление(ответ)=",a/b);
-                document.writeln(",");
-                document.writeln("Деление с остатком(ответ)=",a%b);
-                document.writeln(";");
 
-                
+function calc(a,b){
+    if(s="+"){
+        return (a+b);
+    } else {
+        alert("Wrong!")
+    }
+
+};
+function calc(a,b){
+    if(s="-"){
+        return (a-b);
+    } else {
+        alert("Wrong!")
+    }
+
+};
+function calc(a,b){
+    if(s="*"){
+        return (a*b);
+    } else {
+        alert("Wrong!")
+    }
+
+};
+function calc(a,b){
+    if(s="/"){
+        return (a/b);
+    } else {
+        alert("Wrong!")
+    }
+
+};
+function calc(a,b){
+    if(s="%"){
+        return (a%b);
+    } else {
+        alert("Wrong!")
+    }
+
+};
+
+            if(s=="+"){
+                document.writeln("Сумма(ответ)=",a+b);
+            } else{
+                document.writeln("Oops")
+            };
+            if(s=="-"){
+                document.writeln("Разница(ответ)=",a-b);
+            } else{
+                document.writeln("Oops")
+            };
+            if(s=="*"){
+                document.writeln("Произведение(ответ)=",a*b);
+            } else{
+                document.writeln("Oops")
+            };
+            if(s=="/"){
+                document.writeln("Деление(ответ)=",a/b);
+            } else{
+                document.writeln("Oops")
+            };
+            if(s=="%"){
+                document.writeln("Деление с остатком(ответ)=",a%b);
+            } else{
+                document.writeln("Oops")
+            }; 
+           
         </script>
+   
     </body>
 </html>
