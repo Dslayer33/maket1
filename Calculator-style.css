@@ -1,10 +1,137 @@
 .body{
-   color: #000;
-  
+   color: #079;
+
 }
-.cr{
-   border: 2px solid #000;
-    background-color: aquamarine;
-    color: #000;
-    
+.body-title{
+   text-align: center;
+   color: white;
+   text-shadow: 3px 3px 3px violet,0 2px 3px red,4px 2px 4px green;
+   text-decoration:underline;
+   text-rendering: geometricPrecision;
 }
+.main{
+   
+    color: white;
+    background:url('1614636101_60-p-fon-dlya-fotoshopa-tsifri-86.png');
+    text-shadow:2px 3px 4px 3px gold,0 0 3em red,4px 4px green;
+}
+.sum{
+   border: 1px solid #000;
+   border-radius: 100%;
+}
+.sum:hover{
+   background-color:royalblue;
+  color: white;
+  cursor:pointer;
+}
+.sum:active{
+   box-shadow: 6px 1px 6px rgb(80, 91, 255);
+}
+
+.symbol{
+   border: 1px solid #000;
+   margin-left: 50px;
+}
+.symbol:hover{
+   background-color:red;
+  color: white;
+  cursor:pointer;
+}
+.symbol:active{
+   box-shadow: 6px 1px 6px rgb(201, 37, 37);
+}
+.snumber{
+   border: 1px solid #000;
+   margin-left: 50px;
+   border-radius:100%;
+}
+.snumber:hover{
+  background-color:rgb(0, 255, 21);
+  color: white;
+  cursor:pointer;
+}
+.snumber:active{
+   box-shadow: 6px 1px 6px rgb(24, 196, 38);
+}
+.answer{
+   border: 1px solid #000;
+   margin-left: 50px;
+}
+.answer:hover{
+   background-color:darkmagenta;
+   color: white;
+   cursor:pointer;
+ }
+ .answer:active{
+   box-shadow: 6px 1px 6px rgb(167, 85, 167);
+}
+.answer1{
+   border: 1px solid #000;
+   margin-left: 50px;
+   border-radius:100%;
+}
+.answer1:hover{
+   background-color:rgba(221, 221, 34, 0.849);
+   color: white;
+   cursor:pointer;
+ }
+ .answer1:active{
+   box-shadow: 6px 1px 6px rgb(234, 238, 29);
+}
+.buttonsP{
+   padding: 2px 2px 2px 2px;
+   border: 2px solid indigo;
+   margin-top: 20px;
+   background-color: aqua;
+   width: 565px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.buttonsP2{
+   padding: 2px 2px 2px 2px;
+   border: 2px solid rgb(102, 10, 22);
+   margin-top: 20px;
+   background-color: white;
+   width: 565px;
+   margin-left: auto;
+   margin-right: auto;
+   height:20px;
+}
+.SqrN:hover{
+   background-color:rgba(236, 184, 11, 0.849);
+   color: white;
+   cursor:pointer;
+ }
+ .SqrN:active{
+   box-shadow: 6px 1px 6px rgb(226, 115, 12);
+}
+.Degree{
+   margin-left: 225px;
+   border: 1px solid #000;
+   border-radius:100%;
+}
+.Degree:hover{
+   background-color:rgba(11, 82, 236, 0.384);
+   color: white;
+   cursor:pointer;
+ }
+ .Degree:active{
+   box-shadow: 6px 1px 6px rgb(12, 147, 226);
+}
+.Factorial{
+   margin-left: 252px;
+   border: 1px solid #000;
+}
+.Factorial:hover{
+   background-color:rgba(11, 236, 225, 0.808);
+   color: white;
+   cursor:pointer;
+ }
+ .Factorial:active{
+   box-shadow: 6px 1px 6px rgb(10, 226, 172);
+}
+
+
+
+ 
+

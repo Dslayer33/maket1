@@ -3,86 +3,144 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="Calculator-style.css">
-        <title>Document</title>
-
+        <title>Calculator(0.3)</title>
+        <link rel="shortcut icon" type="image/png" href="accounting_book_education_icon_220464.png">
     </head>
-    <body class="cr"> 
-        
+    <body class="main"> 
+        <h2 class="body-title">##Calculator##</h2>
+         <div class="buttonsP">
+            <button id="firstb" class="sum">Sum(+)</button>
+            <button id="sbutton" class="symbol">Diff(-)</button>
+            <button id="tbutton" class="snumber">Mult(*)</button>
+            <button id="fbutton" class="answer">Division(/)</button>
+            <button id="lbutton"  class="answer1">DivisionWrem(%)</button>
+         </div>
+         <div class="buttonsP2">
+            <button id="sqr" class="SqrN">√</button>
+            <button id="deg" class="Degree">m^n</button>
+            <button id="fac" class="Factorial">!</button>
+         </div>
         <script>
             "use strict";
+            //+//
+            const first=document.getElementById(firstb);
+            firstb.addEventListener('click',function(event){
+                event.preventDefault();
+                const a=+prompt("Введите первое число!(Enter a first number!","");
+                const b=+prompt("Введите второе число!(Enter a second number! ","");
+                function calc(a,b){
+                return (a+b);
+                };
+                const trigg="Answer(Ответ)";
+                alert(`${trigg}:${a+b}`); 
+            });
+            //+//
+  
 
-const a=+prompt("Введите первое число!","");
-const s=prompt("Какое действие желаете выполнить?","");
-const b=+prompt("Введите второе число!","");
+            //-//
+            const second=document.getElementById(sbutton);
+            sbutton.addEventListener('click',function(event){
+                event.preventDefault();
+                const a=+prompt("Введите первое число!(Enter a first number!","");
+                const b=+prompt("Введите второе число!(Enter a second number! ","");
+                function calc(a,b){
+                return (a-b);
+                };
+                const trigg1="Answer(Ответ)";
+                alert(`${trigg1}:${a-b}`); 
+            });
+            //-//
 
-function calc(a,b){
-    if(s="+"){
-        return (a+b);
-    } else {
-        alert("Wrong!")
-    }
 
-};
-function calc(a,b){
-    if(s="-"){
-        return (a-b);
-    } else {
-        alert("Wrong!")
-    }
+            //*//
+            const third=document.getElementById(tbutton);
+            tbutton.addEventListener('click',function(event){
+                event.preventDefault();
+                const a=+prompt("Введите первое число!(Enter a first number!","");
+                const b=+prompt("Введите второе число!(Enter a second number! ","");
+                function calc(a,b){
+                return (a*b);
+                };
+                const trigg2="Answer(Ответ)";
+                alert(`${trigg2}:${a*b}`); 
+            });
+            //*//
 
-};
-function calc(a,b){
-    if(s="*"){
-        return (a*b);
-    } else {
-        alert("Wrong!")
-    }
 
-};
-function calc(a,b){
-    if(s="/"){
-        return (a/b);
-    } else {
-        alert("Wrong!")
-    }
+            // / //
+            const four=document.getElementById(fbutton);
+            fbutton.addEventListener('click',function(event){
+                event.preventDefault();
+                const a=+prompt("Введите первое число!(Enter a first number!","");
+                const b=+prompt("Введите второе число!(Enter a second number! ","");
+                function calc(a,b){
+                return (a/b);
+                };
+                const trigg3="Answer(Ответ)";
+                alert(`${trigg3}:${a/b}`); 
+            });
+           // / //
 
-};
-function calc(a,b){
-    if(s="%"){
-        return (a%b);
-    } else {
-        alert("Wrong!")
-    }
 
-};
+             // % //
+             const fifth=document.getElementById(lbutton);
+             lbutton.addEventListener('click',function(event){
+                event.preventDefault();
+                const a=+prompt("Введите первое число!(Enter a first number!","");
+                const b=+prompt("Введите второе число!(Enter a second number! ","");
+                function calc(a,b){
+                return (a%b);
+                };
+                const trigg4="Answer(Ответ)";
+                alert(`${trigg4}:${a%b}`); 
+            });
+            // % //
 
-            if(s=="+"){
-                document.writeln("Сумма(ответ)=",a+b);
-            } else{
-                document.writeln("Oops")
-            };
-            if(s=="-"){
-                document.writeln("Разница(ответ)=",a-b);
-            } else{
-                document.writeln("Oops")
-            };
-            if(s=="*"){
-                document.writeln("Произведение(ответ)=",a*b);
-            } else{
-                document.writeln("Oops")
-            };
-            if(s=="/"){
-                document.writeln("Деление(ответ)=",a/b);
-            } else{
-                document.writeln("Oops")
-            };
-            if(s=="%"){
-                document.writeln("Деление с остатком(ответ)=",a%b);
-            } else{
-                document.writeln("Oops")
-            }; 
-           
+
+            //sqr//
+            const SqR=document.getElementById(sqr);
+             sqr.addEventListener('click',function(event){
+                event.preventDefault();
+                const a=+prompt("Введите число!(Enter a number!)","");
+                function calc(a){
+                return (Math.sqrt(a));
+                };
+                const trigg5="Answer(Ответ)";
+                alert(`${trigg5}:${Math.sqrt(a)}`); 
+            });
+            //sqr//
+
+
+            //^//
+            const DeG=document.getElementById(deg);
+             deg.addEventListener('click',function(event){
+                event.preventDefault();
+                const m=+prompt("Введите число!(Enter a number!)","");
+                const n=+prompt("Введите степень числа!(Enter a degree of number!)","");
+                function calc(m,n){
+                return (Math.pow(m,n));
+                };
+                const trigg6="Answer(Ответ)";
+                alert(`${trigg6}:${Math.pow(m,n)}`); 
+            });
+            //^//
+
+
+            //!//
+            const FaC=document.getElementById(fac);
+             fac.addEventListener('click',function(event){
+                event.preventDefault();
+                const count=+prompt("Введите число!(Enter a number!)","");
+                var fact=1;
+                for(var i=1;i<count;i++){
+                    fact=fact*i;
+                }
+                const trigg7="Answer(Ответ)";
+                alert(`${trigg7}:${fact*i}`); 
+            });
+             //!//
         </script>
+        
    
     </body>
 </html>
