@@ -1,0 +1,1104 @@
+@media screen and (min-width:200px) and (max-width:350px) {
+    .main{
+        font-family:PT Sans;
+        background: url("background_3.png");
+        background-repeat: no-repeat;
+        width:100%;
+        max-width: 350px;
+        min-width: 200px;
+        height:100%;
+        max-height:auto;
+        display: block;
+    
+    }
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 5%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+    .main-text{
+        position: absolute;
+        margin-top:230px;
+        font-size: 15px;
+        max-block-size:150px;
+        font-family:PT Sans;
+        line-height:18px;
+        font-weight:700;
+        letter-spacing:-0.05em;
+        color: #000000;
+        margin-left: 5%;
+        margin-right: auto;
+        
+    }
+    
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:5%;
+        width: 150px;
+        max-width:200px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:62.5%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:68%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:7%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:55%;
+    }
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:35%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:20%;
+    
+    }
+}
+
+/*logo*/
+@media screen and (max-width:200px){
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 5%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:201px) and (max-width:220px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 7%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:221px) and (max-width:235px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 8%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:236px) and (max-width:250px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 9%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:251px) and (max-width:265px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 11%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:266px) and (max-width:280px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 13%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:281px) and (max-width:295px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 15%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:296px) and (max-width:310px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 17%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:311px) and (max-width:325px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 19%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+
+@media screen and (min-width:326px) and (max-width:350px) {
+    .main-logo{
+        position: absolute;
+        width:161px; 
+        height:38px;
+        margin-left: 22%;
+        margin-right:auto;
+        margin-top:80px;
+    }
+}
+/**logo*/
+
+/*main-Text*/
+@media screen and  (max-width:200px){
+    .main-text{
+        position: absolute;
+        margin-top:230px;
+        font-size: 15px;
+        max-block-size:150px;
+        font-family:PT Sans;
+        line-height:18px;
+        font-weight:700;
+        letter-spacing:-0.05em;
+        color: #000000;
+        margin-left: 5%;
+        margin-right: auto;
+        
+    }
+}
+
+@media screen and (min-width:201px) and (max-width:230px){
+    .main-text{
+        position: absolute;
+        margin-top:230px;
+        font-size: 15px;
+        max-block-size:150px;
+        font-family:PT Sans;
+        line-height:18px;
+        font-weight:700;
+        letter-spacing:-0.05em;
+        color: #000000;
+        margin-left: 8%;
+        margin-right: auto;
+        
+    }
+}
+
+@media screen and (min-width:231px) and (max-width:280px){
+    .main-text{
+        position: absolute;
+        margin-top:230px;
+        font-size: 15px;
+        max-block-size:150px;
+        font-family:PT Sans;
+        line-height:18px;
+        font-weight:700;
+        letter-spacing:-0.05em;
+        color: #000000;
+        margin-left: 9%;
+        margin-right: auto;
+        
+    }
+}
+
+@media screen and (min-width:281px) and (max-width:295px){
+    .main-text{
+        position: absolute;
+        margin-top:230px;
+        font-size: 15px;
+        max-block-size:150px;
+        font-family:PT Sans;
+        line-height:18px;
+        font-weight:700;
+        letter-spacing:-0.05em;
+        color: #000000;
+        margin-left: 10%;
+        margin-right: auto;
+        
+    }
+}
+
+@media screen and (min-width:296px) and (max-width:310px){
+    .main-text{
+        position: absolute;
+        margin-top:230px;
+        font-size: 15px;
+        max-block-size:150px;
+        font-family:PT Sans;
+        line-height:18px;
+        font-weight:700;
+        letter-spacing:-0.05em;
+        color: #000000;
+        margin-left: 12%;
+        margin-right: auto;
+        
+    }
+}
+
+@media screen and (min-width:311px) and (max-width:325px){
+    .main-text{
+        position: absolute;
+        margin-top:230px;
+        font-size: 15px;
+        max-block-size:150px;
+        font-family:PT Sans;
+        line-height:18px;
+        font-weight:700;
+        letter-spacing:-0.05em;
+        color: #000000;
+        margin-left: 14%;
+        margin-right: auto;
+        
+    }
+}
+
+@media screen and (min-width:326px) and (max-width:350px){
+    .main-text{
+        position: absolute;
+        margin-top:230px;
+        font-size: 15px;
+        max-block-size:150px;
+        font-family:PT Sans;
+        line-height:18px;
+        font-weight:700;
+        letter-spacing:-0.05em;
+        color: #000000;
+        margin-left: 16%;
+        margin-right: auto;
+        
+    }
+}
+/**main-Text*/
+
+/*main-Form*/
+@media screen  and  (max-width:200px){
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:5%;
+        width: 150px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:62.5%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:68%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:7%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:55%;
+    }
+}
+
+@media screen  and  (min-width:201px) and (max-width:215px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:6%;
+        width: 155px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:63%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:68.5%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:8%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:56%;
+    }
+}
+
+@media screen  and  (min-width:216px) and (max-width:230px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:7%;
+        width: 160px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:63.5%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:69%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:9%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:57%;
+    }
+}
+
+@media screen  and  (min-width:231px) and (max-width:245px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:8%;
+        width: 168px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:64%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:69.5%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:10%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:58%;
+    }
+}
+
+@media screen  and  (min-width:246px) and (max-width:260px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:9%;
+        width: 176px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:64.5%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:69.7%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:11%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:59%;
+    }
+}
+
+@media screen  and  (min-width:261px) and (max-width:275px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:10%;
+        width: 184px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:65%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:70%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:12%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:60%;
+    }
+}
+
+
+@media screen  and  (min-width:276px) and (max-width:290px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:11%;
+        width: 192px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:65.5%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:70.3%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:13%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:61%;
+    }
+}
+
+@media screen  and  (min-width:291px) and (max-width:305px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:12%;
+        width: 200px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:66%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:70.6%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:14%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:62%;
+    }
+}
+
+@media screen  and  (min-width:306px) and (max-width:320px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:13%;
+        width: 208px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:66.5%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:70.9%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:15%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:63%;
+    }
+}
+
+@media screen  and  (min-width:321px) and (max-width:350px) {
+    .form-body{
+        font-family:PT Sans;
+        position: absolute;
+        margin-top:393px;
+        margin-left:14%;
+        width: 216px;
+        max-width:432px;
+        height: 52px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #a2a2a2;
+        padding-left:10px;
+
+    }
+    .button-form1{
+        position: absolute;
+        
+        margin-top:402px;
+        margin-left:66.7%;
+        width: 38px;
+        height: 38px;
+        z-index: 1;
+        background-color:#ec4444;
+        border-radius: 90%;
+    }
+    .button-point{
+        position: absolute;
+        z-index:2;
+        margin-top:413px;
+        margin-left:70%;
+    }
+    .form-text1{
+        font-family:PT Sans;
+        font-size: 10px;
+        line-height: 1.2;
+        font-weight: 400;
+        letter-spacing: -0.004em;
+        color: #ffffff;
+        position: absolute;
+        margin-top:375px;
+        margin-left:16%;
+    }
+    .form-text2{
+        font-family:PT Sans;
+        font-size: 8px;
+        line-height: 36px;
+        font-weight: 400;
+        color:#ffffff;
+        position: absolute;
+        margin-top:442px;
+        margin-left:64%;
+    }
+}
+/**main-Form*/
+
+/*main-footer*/
+@media screen and (max-width:200px){
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:35%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:20%;
+    
+    }
+}
+
+@media screen and (min-width:201px) and (max-width:220px) {
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:36%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:21%;
+    
+    }
+}
+
+@media screen and (min-width:221px) and (max-width:240px) {
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:37%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:22%;
+    
+    }
+}
+
+@media screen and (min-width:241px) and (max-width:260px) {
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:38%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:23%;
+    
+    }
+}
+
+@media screen and (min-width:261px) and (max-width:280px) {
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:39%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:24%;
+    
+    }
+}
+
+@media screen and (min-width:281px) and (max-width:300px) {
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:40%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:25%;
+    
+    }
+}
+
+@media screen and (min-width:301px) and (max-width:320px) {
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:41%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:28%;
+    
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:350px) {
+    .footer-text{
+        position: absolute;
+        font-family: PT Sans;
+        font-size: 10px;
+        line-height:1.2;
+        font-weight: 400;
+        letter-spacing:-0.04em;
+        color: #ffffff;
+        margin-top:585px;
+        margin-left:43%;
+        text-decoration: none;
+        text-align: center;
+    }
+    .foot-logo{
+        position: absolute;
+        margin-top:580px;
+        margin-left:32%;
+    
+    }
+}
